@@ -2,6 +2,8 @@
 
 Which players had similar performance profiles once I accounted for their roles? I analyzed aggregate statistics for **81 players on 16 teams** at the 2024 League of Legends World Championship. I used topological data analysis to see how players compared across six measures at once, then tested whether the shape of a roster added information about its observed win rate.
 
+I began this work in April 2026 as an individual practical exam for MA2007B at Tecnológico de Monterrey. I wrote a proposal for analyzing playing styles, then adapted it to the available player statistics and implemented it in Python. The [original exam report in Spanish](Worlds_2024_Practical_Exam_Report.pdf) records those decisions and the results.
+
 [Python notebook with executed outputs](Worlds_2024_Analysis.ipynb) · [One-page project brief](Worlds_2024_Topological_Analysis.pdf)
 
 ![Mapper graph of player performance profiles, showing one large connected component and two smaller ones](Worlds_2024_Mapper.png)
